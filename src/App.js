@@ -1,9 +1,23 @@
+import React from 'react';
 import './App.css';
+import PayrollForm from "./components/payroll-form/payroll-form";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 function App() {
-  return (
+   return (
     <div className="App">
-      Hello World
+      <Router>
+        <Switch>
+          <Route exact path="">
+            <PayrollForm />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
