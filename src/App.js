@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="">
+          <Route exact path="/payroll-from">
             <PayrollForm />
           </Route>
         </Switch>

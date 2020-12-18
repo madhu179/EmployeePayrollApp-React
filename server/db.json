@@ -54,6 +54,42 @@
       "_note": "All in one",
       "_startDate": "2020-11-14T18:30:00.000Z",
       "id": 5
+    },
+    {
+      "name": "Tony",
+      "departMent": [
+        "Engineer"
+      ],
+      "gender": "male",
+      "salary": "12345",
+      "startDate": "15 Dec 2020",
+      "notes": "hi",
+      "id": 6,
+      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "name": "Steve",
+      "departMent": [
+        "Others"
+      ],
+      "gender": "male",
+      "salary": "98876",
+      "startDate": "1 Dec 2020",
+      "notes": "Hello",
+      "id": 7,
+      "profileUrl": "../../assets/profile-images/Ellipse -8.png"
+    },
+    {
+      "name": "Strange",
+      "departMent": [
+        "Finance"
+      ],
+      "gender": "male",
+      "salary": "6789",
+      "startDate": "17 Nov 2020",
+      "notes": "Hello",
+      "id": 8,
+      "profileUrl": "../../assets/profile-images/Ellipse -3.png"
     }
   ]
 }
